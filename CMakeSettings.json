@@ -8,18 +8,11 @@
         "msvc_x64_x64"
       ],
       "buildRoot": "${workspaceRoot}\\build\\${name}",
-      "installRoot": "${workspaceRoot}\\install\\${name}",
+      "installRoot": "${env.ProgramFiles}\\zlib",
       "cmakeCommandArgs": "",
       "buildCommandArgs": "-v",
       "ctestCommandArgs": "",
-      "intelliSenseMode": "windows-msvc-x64",
-      "variables": [
-        {
-          "name": "CMAKE_RUNTIME_OUTPUT_DIRECTORY",
-          "type": "PATH",
-          "value": "${workspaceRoot}\\x64\\Release"
-        }
-      ]
+      "intelliSenseMode": "windows-msvc-x64"
     },
     {
       "name": "x64-Debug",
@@ -29,18 +22,11 @@
         "msvc_x64_x64"
       ],
       "buildRoot": "${workspaceRoot}\\build\\${name}",
-      "installRoot": "${workspaceRoot}\\install\\${name}",
+      "installRoot": "${env.ProgramFiles}\\zlib",
       "cmakeCommandArgs": "",
       "buildCommandArgs": "-v",
       "ctestCommandArgs": "",
-      "intelliSenseMode": "windows-msvc-x64",
-      "variables": [
-        {
-          "name": "CMAKE_RUNTIME_OUTPUT_DIRECTORY",
-          "type": "PATH",
-          "value": "${workspaceRoot}\\x64\\Debug"
-        }
-      ]
+      "intelliSenseMode": "windows-msvc-x64"
     },
     {
       "name": "x86-Release",
@@ -50,18 +36,11 @@
         "msvc_x86_x64"
       ],
       "buildRoot": "${workspaceRoot}\\build\\${name}",
-      "installRoot": "${workspaceRoot}\\install\\${name}",
+      "installRoot": "${env.ProgramFiles}\\zlib",
       "cmakeCommandArgs": "",
       "buildCommandArgs": "-v",
       "ctestCommandArgs": "",
-      "intelliSenseMode": "windows-msvc-x86",
-      "variables": [
-        {
-          "name": "CMAKE_RUNTIME_OUTPUT_DIRECTORY",
-          "type": "PATH",
-          "value": "${workspaceRoot}\\x86\\Release"
-        }
-      ]
+      "intelliSenseMode": "windows-msvc-x86"
     },
     {
       "name": "x86-Debug",
@@ -71,18 +50,11 @@
         "msvc_x86_x64"
       ],
       "buildRoot": "${workspaceRoot}\\build\\${name}",
-      "installRoot": "${workspaceRoot}\\install\\${name}",
+      "installRoot": "${env.ProgramFiles}\\zlib",
       "cmakeCommandArgs": "",
       "buildCommandArgs": "-v",
       "ctestCommandArgs": "",
-      "intelliSenseMode": "windows-msvc-x86",
-      "variables": [
-        {
-          "name": "CMAKE_RUNTIME_OUTPUT_DIRECTORY",
-          "type": "PATH",
-          "value": "${workspaceRoot}\\x86\\Debug"
-        }
-      ]
+      "intelliSenseMode": "windows-msvc-x86"
     }
   ]
 }
